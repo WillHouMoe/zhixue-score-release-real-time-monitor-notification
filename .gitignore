@@ -1,4 +1,16 @@
-main.py
-check-lib.py
+# 非核心内容：旧版抓包脚本、诊断测试、备份和杂项
+archive/
 
-curl.txt
+# 本地运行状态与会话（含登录凭证/推送密钥，绝不提交）
+cookies.json
+monitor_config.json
+
+# Python 缓存与本地虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 备份文件与 macOS 元数据
+*.bak
+.DS_Store
